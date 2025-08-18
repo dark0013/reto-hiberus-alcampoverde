@@ -122,6 +122,32 @@ Puedes probar estos endpoints usando la colección de **Postman** proporcionada.
 | PUT    | /specialties           | Actualiza una especialidad existente. |
 | DELETE | /specialties/{id}      | Elimina una especialidad por su ID.  |
 
+---
+## ⚙️ Configuración de la Base de Datos para el Backend
+
+La API RESTful requiere conexión a la base de datos para funcionar correctamente.  
+La configuración se encuentra en un archivo JSON llamado `db_config.json` dentro de la carpeta `config` del backend:
+
+```json
+{
+    "host": "localhost",
+    "dbname": "mediapp19",
+    "user": "root",
+    "password": ""
+}
+```
+
+### Detalles de Configuración
+
+- **host:** Dirección del servidor de base de datos. Por defecto, `localhost`.  
+- **dbname:** Nombre de la base de datos que se utilizará (`mediapp19`).  
+- **user:** Usuario con permisos sobre la base de datos (`root` en entornos locales).  
+- **password:** Contraseña del usuario de la base de datos (vacío en XAMPP por defecto).  
+
+> ⚠️ **Importante:** Asegúrate de que la base de datos `mediapp19` exista y que las credenciales coincidan con las de `db_config.json` para que la API pueda conectarse correctamente.
+
+
+
 
 
 
