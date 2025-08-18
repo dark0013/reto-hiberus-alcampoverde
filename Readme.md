@@ -28,6 +28,24 @@ La aplicación cuenta con un **frontend interactivo** construido con **HTML, Boo
 ### Interfaz Amigable
 - 🚀 **Navegación Intuitiva:** Barra de navegación para acceder a las diferentes secciones.  
 - 👋 **Página de Bienvenida:** Un portal de inicio amigable.  
-- ❓ **Página 404:** Manejo de rutas no encontradas para una mejor experiencia de usuario.  
+- ❓ **Página 404:** Manejo de rutas no encontradas para una mejor experiencia de usuario.
+
+- ## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+- **HTML5:** Estructura semántica de la aplicación.  
+- **Bootstrap 5:** Framework CSS para un diseño responsive y componentes modernos.  
+- **JavaScript (ES6+):** Lógica del cliente, interactividad y consumo de la API (Fetch API).  
+
+### Backend
+- **PHP:** Lenguaje del lado del servidor para la lógica de la API REST.  
+- **MySQL / MariaDB:** Sistema de gestión de bases de datos para el almacenamiento de datos.  
+- **Apache:** Servidor web para alojar la aplicación (requerido para `.htaccess`).  
+
+### Herramientas
+- **Postman:** Colección incluida para probar los endpoints de la API.  
+- **XAMPP (o similar):** Entorno de desarrollo local que incluye Apache, PHP y MySQL.  
+
+
 
 
