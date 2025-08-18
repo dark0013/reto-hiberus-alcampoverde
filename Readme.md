@@ -30,6 +30,7 @@ La aplicación cuenta con un **frontend interactivo** construido con **HTML, Boo
 - 👋 **Página de Bienvenida:** Un portal de inicio amigable.  
 - ❓ **Página 404:** Manejo de rutas no encontradas para una mejor experiencia de usuario.
 
+---
 - ## 🛠️ Tecnologías Utilizadas
 
 ### Frontend
@@ -44,7 +45,32 @@ La aplicación cuenta con un **frontend interactivo** construido con **HTML, Boo
 
 ### Herramientas
 - **Postman:** Colección incluida para probar los endpoints de la API.  
-- **XAMPP (o similar):** Entorno de desarrollo local que incluye Apache, PHP y MySQL.  
+- **XAMPP (o similar):** Entorno de desarrollo local que incluye Apache, PHP y MySQL.
+
+---
+## 📂 Estructura del Proyecto
+
+El proyecto está organizado en **dos carpetas principales** para separar claramente las responsabilidades del **frontend** y el **backend**:
+.
+├── 📁 reto-hiberus-alcampoverde-backend/
+│   ├── 📄 .htaccess            # Reglas de enrutamiento y CORS para la API
+│   ├── 📄 index.php            # Punto de entrada de la API (Front Controller)
+│   └── 📁 ... (controller, model, repository, etc.)
+│
+├── 📁 reto-hiberus-alcampoverde-frontend/
+│   ├── 📄 .htaccess            # Regla para la página de error 404
+│   ├── 📄 404.html             # Página de "No Encontrado"
+│   ├── 📄 index.html           # Página de bienvenida
+│   └── 📁 pages/
+│       ├── 📄 appointments.html
+│       ├── 📄 patients.html
+│       └── 📄 specialty.html
+│
+├── 📜 mediapp19.sql             # Script de la base de datos
+├── 📝 Readme.md                  # Esta documentación
+└── 📦 reto-tecnico-alcampoverde-hiberus.postman_collection.json
+
+
 
 
 
