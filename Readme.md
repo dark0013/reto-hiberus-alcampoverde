@@ -51,24 +51,29 @@ La aplicación cuenta con un **frontend interactivo** construido con **HTML, Boo
 ## 📂 Estructura del Proyecto
 
 El proyecto está organizado en **dos carpetas principales** para separar claramente las responsabilidades del **frontend** y el **backend**:
+
+```text
 .
-├── 📁 reto-hiberus-alcampoverde-backend/
-│   ├── 📄 .htaccess            # Reglas de enrutamiento y CORS para la API
-│   ├── 📄 index.php            # Punto de entrada de la API (Front Controller)
-│   └── 📁 ... (controller, model, repository, etc.)
+├── .gitignore
+├── reto-hiberus-alcampoverde-backend/
+│   ├── .htaccess            # Reglas de enrutamiento y CORS para la API
+│   ├── index.php            # Punto de entrada de la API (Front Controller)
+│   └── ... (controller, model, repository, etc.)
 │
-├── 📁 reto-hiberus-alcampoverde-frontend/
-│   ├── 📄 .htaccess            # Regla para la página de error 404
-│   ├── 📄 404.html             # Página de "No Encontrado"
-│   ├── 📄 index.html           # Página de bienvenida
-│   └── 📁 pages/
-│       ├── 📄 appointments.html
-│       ├── 📄 patients.html
-│       └── 📄 specialty.html
+├── reto-hiberus-alcampoverde-frontend/
+│   ├── .htaccess            # Regla para la página de error 404
+│   ├── 404.html             # Página de "No Encontrado"
+│   ├── index.html           # Página de bienvenida
+│   └── pages/
+│       ├── appointments.html
+│       ├── patients.html
+│       └── specialty.html
 │
-├── 📜 mediapp19.sql             # Script de la base de datos
-├── 📝 Readme.md                  # Esta documentación
-└── 📦 reto-tecnico-alcampoverde-hiberus.postman_collection.json
+├── mediapp19.sql             # Script de la base de datos
+├── README.md                 # Esta documentación
+└── reto-tecnico-alcampoverde-hiberus.postman_collection.json
+
+
 
 
 
