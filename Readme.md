@@ -73,6 +73,7 @@ El proyecto está organizado en **dos carpetas principales** para separar claram
 ├── README.md                 # Esta documentación
 └── reto-tecnico-alcampoverde-hiberus.postman_collection.json
 ```
+---
 ## 🚀 Guía de Instalación y Puesta en Marcha
 
 Sigue estos pasos para configurar el proyecto en tu **entorno de desarrollo local**.
@@ -100,6 +101,29 @@ Sigue estos pasos para configurar el proyecto en tu **entorno de desarrollo loca
 ### ¡Listo para Usar!
 - Abre tu navegador y accede a la URL: `http://localhost/reto-hiberus-alcampoverde-frontend/`
 - Serás recibido por la **página de bienvenida** y podrás empezar a navegar por la aplicación.
+  
+---
+## 🔌 Endpoints de la API
+La API RESTful se encuentra en la ruta base: `http://localhost/reto-hiberus-alcampoverde-backend/` 
+Puedes probar estos endpoints usando la colección de **Postman** proporcionada.
+
+| Método | Endpoint                | Descripción                         |
+|--------|------------------------|-------------------------------------|
+| GET    | /appointments          | Obtiene una lista de todas las citas. |
+| POST   | /appointments          | Crea una nueva cita.                 |
+| PUT    | /appointments          | Actualiza una cita existente.        |
+| DELETE | /appointments/{id}     | Elimina una cita por su ID.          |
+| GET    | /patients              | Obtiene una lista de todos los pacientes. |
+| POST   | /patients              | Crea un nuevo paciente.              |
+| PUT    | /patients              | Actualiza un paciente existente.     |
+| DELETE | /patients/{id}         | Elimina un paciente por su ID.       |
+| GET    | /specialties           | Obtiene una lista de todas las especialidades. |
+| POST   | /specialties           | Crea una nueva especialidad.         |
+| PUT    | /specialties           | Actualiza una especialidad existente. |
+| DELETE | /specialties/{id}      | Elimina una especialidad por su ID.  |
+
+
+
 
 
 
