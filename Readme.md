@@ -93,7 +93,7 @@ Sigue estos pasos para configurar el proyecto en tu **entorno de desarrollo loca
 2. Abre **phpMyAdmin** (generalmente en `http://localhost/phpmyadmin`).  
 3. Crea una nueva base de datos llamada `mediapp19`.  
 4. Selecciona la base de datos `mediapp19` y ve a la pestaña **Importar**.  
-5. Selecciona el archivo `mediapp19.sql` incluido en este proyecto y ejecuta la importación.  
+5. Selecciona el archivo `BaseDeDatos.sql` incluido en este proyecto y ejecuta la importación.  
 
 #### 3. Verificar Configuración del Servidor
 - Asegúrate de que el módulo **mod_rewrite** de Apache esté activado en tu configuración (`httpd.conf`). Esto es necesario para que los archivos `.htaccess` funcionen correctamente.  
@@ -145,6 +145,7 @@ La configuración se encuentra en un archivo JSON llamado `db_config.json` dentr
 - **password:** Contraseña del usuario de la base de datos (vacío en XAMPP por defecto).  
 
 > ⚠️ **Importante:** Asegúrate de que la base de datos `mediapp19` exista y que las credenciales coincidan con las de `db_config.json` para que la API pueda conectarse correctamente.
+
 
 
 
