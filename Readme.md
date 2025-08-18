@@ -72,6 +72,35 @@ El proyecto está organizado en **dos carpetas principales** para separar claram
 ├── mediapp19.sql             # Script de la base de datos
 ├── README.md                 # Esta documentación
 └── reto-tecnico-alcampoverde-hiberus.postman_collection.json
+```
+## 🚀 Guía de Instalación y Puesta en Marcha
+
+Sigue estos pasos para configurar el proyecto en tu **entorno de desarrollo local**.
+
+### Pre-requisitos
+- Tener instalado un entorno de servidor local como **XAMPP, WAMP o MAMP**.  
+- Un cliente de base de datos como **phpMyAdmin** (incluido en XAMPP) o **MySQL Workbench**.  
+- Un navegador web moderno (**Chrome, Firefox**, etc.).  
+
+### Pasos de Configuración
+
+#### 1. Clonar el Repositorio (o copiar los archivos)
+- Coloca las carpetas `reto-hiberus-alcampoverde-frontend` y `reto-hiberus-alcampoverde-backend` dentro del directorio `htdocs` de tu instalación de XAMPP.  
+
+#### 2. Configurar la Base de Datos
+1. Inicia los servicios de **Apache** y **MySQL** desde el panel de control de XAMPP.  
+2. Abre **phpMyAdmin** (generalmente en `http://localhost/phpmyadmin`).  
+3. Crea una nueva base de datos llamada `mediapp19`.  
+4. Selecciona la base de datos `mediapp19` y ve a la pestaña **Importar**.  
+5. Selecciona el archivo `mediapp19.sql` incluido en este proyecto y ejecuta la importación.  
+
+#### 3. Verificar Configuración del Servidor
+- Asegúrate de que el módulo **mod_rewrite** de Apache esté activado en tu configuración (`httpd.conf`). Esto es necesario para que los archivos `.htaccess` funcionen correctamente.  
+
+### ¡Listo para Usar!
+- Abre tu navegador y accede a la URL: `http://localhost/reto-hiberus-alcampoverde-frontend/`
+- Serás recibido por la **página de bienvenida** y podrás empezar a navegar por la aplicación.
+
 
 
 
