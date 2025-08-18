@@ -1,4 +1,4 @@
- const SPECIALTIES_API_URL = 'http://localhost/reto-hiberus-alcampoverde/specialties';
+ const SPECIALTIES_API_URL = 'http://localhost/reto-hiberus-alcampoverde-backend/specialties';
 
         document.addEventListener('DOMContentLoaded', () => {
             obtenerEspecialidades();

@@ -1,5 +1,5 @@
 
-        const PATIENTS_API_URL = 'http://localhost/reto-hiberus-alcampoverde/patients';
+        const PATIENTS_API_URL = 'http://localhost/reto-hiberus-alcampoverde-backend/patients';
 
         document.addEventListener('DOMContentLoaded', () => {
             obtenerPacientes();

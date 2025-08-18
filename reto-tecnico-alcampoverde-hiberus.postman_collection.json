@@ -1,0 +1,407 @@
+{
+	"info": {
+		"_postman_id": "01821dcb-b28d-4c5d-87f3-3b32ab633e2d",
+		"name": "reto-tecnico-alcampoverde-hiberus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18960566"
+	},
+	"item": [
+		{
+			"name": "patients",
+			"item": [
+				{
+					"name": "getAllPatients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"patients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findPatientById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/patients/24",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"patients",
+								"24"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "savePatients",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Mikela Lopéz\",\r\n    \"age\": 35,\r\n    \"identification\": \"0931779292\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"patients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updatePatients",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":2,\r\n    \"name\": \"Maggie Campoverde\",\r\n    \"age\": 55\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/patients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"patients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletePatients",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"name\": \"Alain Campoverde\",\r\n    \"age\": 55\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/patients/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"patients",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "specialty",
+			"item": [
+				{
+					"name": "findAllSpecialty",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findSpecialtyById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/specialties/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"specialties",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "saveSpecialty",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"specialty\": \"Cardiología\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateSpecialty",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"specialty\": \"Cardiología\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteSpecialty",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/specialties/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"specialties",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "appointments",
+			"item": [
+				{
+					"name": "saveAppointments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identification\": \"1234567890\",\r\n    \"name\": \"Maggie Campoverde\",\r\n    \"appointment_date\": \"2025-08-16\",\r\n    \"specialtyId\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/appointments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"appointments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateAppointments",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":1,\r\n    \"identification\": \"0994550193\",\r\n    \"name\": \"Maggie Campoverde\",\r\n    \"appointment_date\": \"2025-08-16\",\r\n    \"specialtyId\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/appointments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"appointments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteAppointments",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/appointments/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"appointments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllAppointments",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":2,\r\n    \"identification\": \"0994550193\",\r\n    \"name\": \"Maggie Campoverde\",\r\n    \"appointment_date\": \"2025-08-16\",\r\n    \"specialtyId\": \"2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/reto-hiberus-alcampoverde-backend/appointments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"reto-hiberus-alcampoverde-backend",
+								"appointments"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

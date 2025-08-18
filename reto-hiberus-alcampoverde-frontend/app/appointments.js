@@ -1,5 +1,5 @@
-        const API_URL = 'http://localhost/reto-hiberus-alcampoverde/appointments';
-        const SPECIALTIES_URL = 'http://localhost/reto-hiberus-alcampoverde/specialties';
+        const API_URL = 'http://localhost/reto-hiberus-alcampoverde-backend/appointments';
+        const SPECIALTIES_URL = 'http://localhost/reto-hiberus-alcampoverde-backend/specialties';
 
         document.addEventListener('DOMContentLoaded', () => {
             cargarEspecialidades();
